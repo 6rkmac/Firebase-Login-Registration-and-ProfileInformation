@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/registration_background"
+    tools:context="yazdaniscodelab.firebaseloginregistrationfull.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/poslogo"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="User Registration"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/editbackground"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColorHint="@android:color/white"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:id="@+id/edittextEmail"
+            android:hint="Email Address:"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/editbackground"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColorHint="@android:color/white"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:id="@+id/edittextPassword"
+            android:hint="Enter PassWord:"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Registration"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/buttonregister"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:background="@drawable/editbackground"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Already Register?Sign In here."
+            android:gravity="center"
+            android:id="@+id/signinbtn"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"
+            />
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

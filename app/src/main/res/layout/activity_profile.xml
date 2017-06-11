@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/registration_background"
+    android:layout_height="match_parent"
+    tools:context="yazdaniscodelab.firebaseloginregistrationfull.ProfileActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="Welcome Profile Activity"
+        android:id="@+id/profilename"
+        android:textColor="@android:color/white"
+        android:padding="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name:"
+            android:background="@drawable/editbackground"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:id="@+id/edittextname"
+            android:layout_margin="20dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone:"
+            android:background="@drawable/editbackground"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:id="@+id/edittextphone"
+            android:layout_margin="20dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:textColor="@android:color/white"
+            android:id="@+id/addinform_btn"
+            android:text="Add Information"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:background="@drawable/editbackground"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:text="Log Out"
+        android:id="@+id/btnlogout"
+        android:background="@drawable/editbackground"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
